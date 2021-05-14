@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: simple-webapp-color
   labels:
-    app: web
+    app: web 
 spec:
   containers:
   - name: web
@@ -13,3 +13,4 @@ spec:
     env:
       - name: APP_COLOR
         value: red
+
